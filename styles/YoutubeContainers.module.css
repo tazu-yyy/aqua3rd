@@ -1,0 +1,17 @@
+.collapse-container {
+  display: none;
+}
+
+.detail-button {
+  text-align: center;
+  border-radius: 1em;
+  border: solid 1px black;
+  margin-top: 0.8em;
+  padding: 5px;
+  width: 6em;
+  font-weight: bold;
+}
+
+.image-container {
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1170px) {
+  .monthly-img {
+    text-align: center;
+    margin: 100px 0;
+  }
+
+  .footer-img {
+    text-align: center;
+    margin: 100px 0;
+  }
+}
+
+.monthly-img {
+  width: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.footer-img {
+  width: 100%;
+  z-index: 10;
+  position: relative;
+}
+
+.arrow-image {
+  transform: scale(-1, 1) rotate(90deg);
+  width: 60px;
+  z-index: 10;
+  margin-top: 200px;
+
+}

@@ -1,0 +1,37 @@
+.train-image {
+  position: fixed;
+  top: 50vh;
+  left: -45px;
+  width: 150px;
+  z-index: 9;
+  transform: rotate(-90deg)
+}
+
+@media only screen and (min-width: 1170px) {
+  .train-image {
+    position: fixed;
+    top: 50vh;
+    left: calc(50% - 85px);
+    width: 150px;
+    z-index: 9;
+    transform: rotate(-90deg)
+  }
+}
+
+.fade-out {
+  animation: fade-out 1s ease;
+}
+
+.none {
+  display: none;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
