@@ -358,17 +358,17 @@ export default function History() {
               currentMonth = histories[i].month
 
               ret.push(
-                <div className={styles['monthly-img']}>
+                <div key={`${histories[i].month}-monthly-img`} className={styles['monthly-img']}>
                   <img src={`/images/${historiesMonthToPrefix(currentMonth)}.png`} />
                 </div>
               )
               ret.push(
-                <div></div>
+                <div key={`${histories[i].month}-monthly-img-after`}></div>
               )
             }
 
             ret.push(
-              <CustomVerticalTimelineElement history={histories[i]} link={histories[i].link ? histories[i].link : null}>
+              <CustomVerticalTimelineElement key={`${histories[i].id}-custome-vertical-timeline`} history={histories[i]} link={histories[i].link ? histories[i].link : null}>
                 {histories[i].medias ? <YoutubeContainers medias={histories[i].medias}/> : null}
               </CustomVerticalTimelineElement>
             )
