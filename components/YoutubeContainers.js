@@ -86,7 +86,7 @@ export default function YoutubeContainers(props) {
       const img = <img src={`/images/${media.src}`} className={styles['image-container']}/>
 
       if (media.link) {
-        return <p key={media.src}><a href={media.link} target="_blank">{img}</a></p>
+        return <p key={media.src}><a href={media.link} target="_blank" rel="noopener noreferrer">{img}</a></p>
       } else {
         return <p key={media.src}>{img}</p>
       }
@@ -94,7 +94,7 @@ export default function YoutubeContainers(props) {
       const img = <img src={media.src} className={styles['image-container']}/>
 
       if (media.link) {
-        return <p key={media.src}><a href={media.link} target="_blank">{img}</a></p>
+        return <p key={media.src}><a href={media.link} target="_blank" rel="noopener noreferrer">{img}</a></p>
       } else {
         return <p key={media.src}>{img}</p>
       }

@@ -10,7 +10,7 @@ export default function Header() {
         </div>
         <div className={styles['title-container']}>
           <div>
-            <a href={"https://www.youtube.com/watch?v=CtOkB0YQljY"} target={"_blank"}>
+            <a href={"https://www.youtube.com/watch?v=CtOkB0YQljY"} target={"_blank"} rel="noopener noreferrer">
               <img src={"/images/youtube.png"} width={"50px"} />
             </a>
           </div>

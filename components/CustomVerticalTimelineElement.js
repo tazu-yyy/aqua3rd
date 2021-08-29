@@ -24,14 +24,14 @@ export default function CustomVerticalTimelineElement(props) {
       id={props.history.id}
     >
       <h3 className="vertical-timeline-element-title">
-        <a href={props.link} target="_blank">{props.history.title}</a>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">{props.history.title}</a>
       </h3>
       {
         (() => {
           if (props.history.subTitle) {
             return (
               <h4 className="vertical-timeline-element-subtitle">
-                <a href={props.link} target="_blank">{props.history.subTitle}</a>
+                <a href={props.link} target="_blank" rel="noopener noreferrer">{props.history.subTitle}</a>
               </h4>
             )
           }
