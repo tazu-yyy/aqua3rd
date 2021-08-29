@@ -51,11 +51,7 @@
 }
 
 .title {
-  /*transform: translateX(-50%) rotate(-10deg);*/
   display: block;
-  /*float: left;*/
-  /*left: 50%;*/
-  /*position: relative;*/
 }
 
 .title span {

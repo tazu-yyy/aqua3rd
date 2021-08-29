@@ -28,10 +28,8 @@
 .set-list ul {
   position: relative;
   padding: 15px 15px 15px 30px;
-  /*font: 14px/1.6 'arial narrow', sans-serif;*/
   border: solid 2px rgb(241,172,210);
   border-radius:8px;
-  /*color: #448ccb;*/
   background: #fff;
 }
 

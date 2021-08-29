@@ -55,19 +55,12 @@ a {
     left: calc(50% - 14px) !important;
     margin-left: -2px;
     width: 30px !important;
-    /*width : -webkit-calc(100% - 20px) ;*/
-    /*width : calc(100% - 20px) ;*/
   }
 }
 
 .vertical-timeline::before {
-  /*content: '' !important;*/
-  /*position: absolute !important;*/
-  /*top: 0 !important;*/
   left: 12px !important;
-  /*height: 100% !important;*/
   width: 15px !important;
-  /*background: black !important;*/
   background: rgba(255, 255, 255, 0) !important;
   background-image: url('/rail02.png') !important;
   background-size: 100% !important;
