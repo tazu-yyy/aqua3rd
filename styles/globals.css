@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'KosugiMaru';
-  src: url(/fonts/KosugiMaru-Regular-sub.ttf);
+  src: url(/fonts/KosugiMaru-Regular-sub.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'memoir';
-  src: url(/fonts/memoir-round-sub.otf);
+  src: url(/fonts/memoir-round-sub.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'HachiMaruPop';
-  src: url(/fonts/HachiMaruPop-Regular-sub.ttf);
+  src: url(/fonts/HachiMaruPop-Regular-sub.woff2) format("woff2");
 }
 
 @font-face {
   font-family: 'keifont';
-  src: url(/fonts/keifont-sub.ttf);
+  src: url(/fonts/keifont-mini.woff2) format("woff2");
 }
 
 :root {
