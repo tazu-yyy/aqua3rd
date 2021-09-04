@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>#湊あくあ３年目の軌跡（非公式ファンサイト）</title>
         <meta name="twitter:card" content="summary" key={"twitter_card"} />
-        <meta property="og:url" content="https://wwww.湊あくあ.moe" key={"og_url"}/>
+        <meta property="og:url" content="https://www.湊あくあ.moe" key={"og_url"}/>
         <meta property="og:type" content="website" key={"og_type"}/>
         <meta property="og:title" content="#湊あくあ３年目の軌跡（非公式ファンサイト）" key={"og_title"}/>
         <meta property="og:description" content="#湊あくあ３年目の軌跡（非公式ファンサイト） ホロライブ所属バーチャルアイドルゲーマー猫耳メイドの湊あくあ、３年目の歴史を振り返ろう" key={"og_description"}/>
